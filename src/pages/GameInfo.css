@@ -1,0 +1,29 @@
+.game-details {
+  display: flex;
+}
+
+.game-img-container {
+  display: flex;
+  align-items: center;
+}
+
+.game-img {
+  margin: 35px;
+  width: 30em; /* Фіксована ширина картинки */
+  height: auto; /* Зберігає пропорції картинки */
+}
+
+.game-info {
+  margin: 35px 35px 35px 0;
+  text-align: justify;
+}
+
+.game-name {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.release-date {
+  font-size: large;
+  font-weight: bold;
+}

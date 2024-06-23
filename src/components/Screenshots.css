@@ -1,0 +1,12 @@
+.screenshots {
+  margin: 35px;
+  display: flex;
+  overflow-x: auto;
+  gap: 10px; /* відстань між картинками */
+}
+
+.screenshot {
+  height: 200px; /* фіксована висота для всіх картинок */
+  object-fit: cover; /* зберігає пропорції картинки і обрізає зайве */
+  width: auto; /* автоматична ширина, щоб зберегти пропорції */
+}

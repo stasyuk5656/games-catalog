@@ -1,0 +1,18 @@
+.game {
+  padding: 10px;
+  background-color: var(--secondary-color);
+  grid-row: auto;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.game-cell-img {
+  max-width: 90%;
+  max-height: 250px;
+  min-width: 100%;
+  min-height: auto;
+}

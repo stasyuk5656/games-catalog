@@ -1,0 +1,27 @@
+li {
+  list-style-type: none;
+}
+
+.game-list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  margin: 25px;
+  cursor: pointer;
+}
+
+.game-list-item-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.game-list-item img {
+  max-height: 100px;
+  margin-right: 20px;
+}
+
+.game-list-item p {
+  margin: 0;
+}

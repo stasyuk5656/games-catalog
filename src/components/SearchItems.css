@@ -1,0 +1,64 @@
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid var(--accent-color);
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: var(--text-color);
+  background-color: var(--secondary-color);
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid var(--accent-color);
+  background: var(--accent-color);
+  text-align: center;
+  color: var(--text-color);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap {
+  width: 30%;
+  padding: 15px;
+  margin: 0 auto;;
+}
+
+.button {
+  margin: 35px;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border-radius: 10px;
+  border-color: var(--accent-color);
+  font-size: large;
+  text-align: center;
+  width: 150px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  color: var(--accent-color);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.button:disabled:hover {
+  color: var(--text-color);
+}
+
+.button-disable {
+  background: rgba(0, 0, 0, 0.5);
+}
